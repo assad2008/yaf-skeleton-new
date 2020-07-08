@@ -1,0 +1,20 @@
+{
+    "require": {
+        "pimple/pimple": "^3.3",
+        "illuminate/database": "^7.19",
+        "monolog/monolog": "^2.1",
+        "doctrine/cache": "^1.10",
+        "twig/twig": "^3.0",
+        "assad2008/phphelpers": "^1.0",
+        "doctrine/dbal": "^2.10"
+    },
+    "autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "Ycommon\\":"library/",
+            "Ymodels\\":"application/models/",
+            "Yservices\\":"application/services/"
+        }
+    }
+}
